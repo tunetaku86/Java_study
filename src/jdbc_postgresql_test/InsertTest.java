@@ -21,7 +21,10 @@ public class InsertTest {
 				// SQL 文の作成
 				String sql=
 
+
 					"INSERT INTO emp(code,name,age,tel)VALUES(6,'広瀬',33,'090-1212-3333')";
+
+
 
 				//PreparedStatementの取得
 				PreparedStatement st = con.prepareStatement(sql);
